@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  position: relative;
+
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.rectangle {
+  position: absolute;
+  border: 1px solid #000; /* Border for better visibility, you can adjust or remove it */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+  color: #fff;
+}

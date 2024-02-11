@@ -1,0 +1,58 @@
+.newsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemList {
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px;
+  height: 500px;
+  list-style-type: none;
+  @media screen and (max-width: 576px) {
+    width: 300px;
+  }
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    width: 260px;
+  }
+  @media screen and (min-width: 850px) and (max-width: 992px) {
+    width: 380px;
+  }
+  @media screen and (min-width: 992px) {
+    width: 280px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 400px;
+  }
+}
+
+.readMore {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+.loadMore {
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 4px;
+}
+
+.deleteButton {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 4px;
+}

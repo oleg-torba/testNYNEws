@@ -1,0 +1,21 @@
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  &:last-child {
+    margin-top: 5px;
+  }
+}
+
+.buttons {
+  margin-top: 10xp;
+}
