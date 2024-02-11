@@ -6,7 +6,6 @@ export function App() {
     <>
       <div className="container">
         <SearchForm />
-
         <News />
       </div>
     </>
